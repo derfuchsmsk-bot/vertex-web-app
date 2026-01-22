@@ -67,10 +67,10 @@ class Default:
     PROJECT_ID: str = os.environ.get("PROJECT_ID")
     LOCATION: str = os.environ.get("LOCATION", "us-central1")
     GA_MEASUREMENT_ID: str = os.environ.get("GA_MEASUREMENT_ID")
-    MODEL_ID: str = os.environ.get("MODEL_ID", "gemini-2.5-flash")
+    MODEL_ID: str = os.environ.get("MODEL_ID", "gemini-3-pro-preview")
     INIT_VERTEX: bool = True
     GEMINI_IMAGE_GEN_MODEL: str = os.environ.get(
-        "GEMINI_IMAGE_GEN_MODEL", "gemini-2.5-flash-image",
+        "GEMINI_IMAGE_GEN_MODEL", "gemini-3-pro-image-preview",
     )
     GEMINI_IMAGE_GEN_LOCATION: str = os.environ.get(
         "GEMINI_IMAGE_GEN_LOCATION", "global",
